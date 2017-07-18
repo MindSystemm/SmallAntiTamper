@@ -343,7 +343,7 @@ namespace AntiTamper2
             private static void Initialize()
             {
                 string location = Assembly.GetExecutingAssembly().Location;
-                byte[] first = File.ReadAllBytes("protection.bin");
+                byte[] first = File.ReadAllBytes(System.IO.Path.GetTempPath() + "protection.bin");
                 byte[] second = MD5.Create().ComputeHash(File.ReadAllBytes(location));
                 bool flag = !first.SequenceEqual(second);
                 if (flag)
@@ -426,7 +426,7 @@ namespace AntiTamper2
             {
                 Logger = DummyLogger.NoThrowInstance
             });
-            File.WriteAllBytes(text + "protection.bin", Form1.generateFileHash(text2.Replace(".exe", "").Trim() + ".exe"));
+            File.WriteAllBytes(System.IO.Path.GetTempPath() + "protection.bin", Form1.generateFileHash(text2.Replace(".exe", "").Trim() + ".exe"));
         }
     }
 }

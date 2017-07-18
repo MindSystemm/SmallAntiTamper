@@ -1,7 +1,6 @@
 c:\users\nicol\onedrive\documents\visual studio 2015\Projects\AntiTamper2\AntiTamper2\bin\Debug\AntiTamper2.exe.config
 c:\users\nicol\onedrive\documents\visual studio 2015\Projects\AntiTamper2\AntiTamper2\bin\Debug\AntiTamper2.exe
 c:\users\nicol\onedrive\documents\visual studio 2015\Projects\AntiTamper2\AntiTamper2\bin\Debug\AntiTamper2.pdb
-c:\users\nicol\onedrive\documents\visual studio 2015\Projects\AntiTamper2\AntiTamper2\bin\Debug\dnlib.dll
 c:\users\nicol\onedrive\documents\visual studio 2015\Projects\AntiTamper2\AntiTamper2\obj\Debug\AntiTamper2.Properties.Resources.resources
 c:\users\nicol\onedrive\documents\visual studio 2015\Projects\AntiTamper2\AntiTamper2\obj\Debug\AntiTamper2.csproj.GenerateResource.Cache
 c:\users\nicol\onedrive\documents\visual studio 2015\Projects\AntiTamper2\AntiTamper2\obj\Debug\AntiTamper2.exe
